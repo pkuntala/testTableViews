@@ -17,6 +17,9 @@
 		BF5A54A92C5AA67100AC76EA /* TestTableViewErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A54A82C5AA67100AC76EA /* TestTableViewErrorTests.swift */; };
 		BF5A54B32C5AA67100AC76EA /* TestTableViewErrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A54B22C5AA67100AC76EA /* TestTableViewErrorUITests.swift */; };
 		BF5A54B52C5AA67100AC76EA /* TestTableViewErrorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A54B42C5AA67100AC76EA /* TestTableViewErrorUITestsLaunchTests.swift */; };
+		BF5A54C22C5AA75100AC76EA /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A54C12C5AA75100AC76EA /* TestTableViewController.swift */; };
+		BF5A54C42C5AA7D000AC76EA /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A54C32C5AA7D000AC76EA /* TestTableViewCell.swift */; };
+		BF5A54CE2C5ABE2700AC76EA /* Test2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A54CD2C5ABE2700AC76EA /* Test2TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		BF5A54AE2C5AA67100AC76EA /* TestTableViewErrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewErrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5A54B22C5AA67100AC76EA /* TestTableViewErrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewErrorUITests.swift; sourceTree = "<group>"; };
 		BF5A54B42C5AA67100AC76EA /* TestTableViewErrorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewErrorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF5A54C12C5AA75100AC76EA /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		BF5A54C32C5AA7D000AC76EA /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		BF5A54CD2C5ABE2700AC76EA /* Test2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				BF5A54902C5AA67000AC76EA /* SceneDelegate.swift */,
 				BF5A54922C5AA67000AC76EA /* ViewController.swift */,
 				BF5A54942C5AA67000AC76EA /* Main.storyboard */,
+				BF5A54C12C5AA75100AC76EA /* TestTableViewController.swift */,
+				BF5A54C32C5AA7D000AC76EA /* TestTableViewCell.swift */,
+				BF5A54CD2C5ABE2700AC76EA /* Test2TableViewCell.swift */,
 				BF5A549A2C5AA67100AC76EA /* Assets.xcassets */,
 				BF5A549C2C5AA67100AC76EA /* LaunchScreen.storyboard */,
 				BF5A549F2C5AA67100AC76EA /* Info.plist */,
@@ -262,9 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5A54992C5AA67000AC76EA /* TestTableViewError.xcdatamodeld in Sources */,
+				BF5A54C22C5AA75100AC76EA /* TestTableViewController.swift in Sources */,
 				BF5A54932C5AA67000AC76EA /* ViewController.swift in Sources */,
 				BF5A548F2C5AA67000AC76EA /* AppDelegate.swift in Sources */,
 				BF5A54912C5AA67000AC76EA /* SceneDelegate.swift in Sources */,
+				BF5A54CE2C5ABE2700AC76EA /* Test2TableViewCell.swift in Sources */,
+				BF5A54C42C5AA7D000AC76EA /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
